@@ -1,0 +1,45 @@
+.mtc {
+    color: white;
+    font-family: 'Sans-serif', modern;
+    font-size: 30px;
+    position: absolute; 
+    left: 30px;
+    top: 150px;
+}
+.middle {
+    display: grid;
+    text-align: center;
+}
+.profile{
+border-radius: 50%;
+    height: 400px;
+}
+.container-page {
+    display: flex;
+    justify-content: center;
+}
+.sec4{
+    text-align: center;
+}
+.sec5{
+    background-color: rgb(73, 70, 70);
+}
+
+@media(max-width:500px) {
+
+    .top {
+        height: 200px;
+        width: 500px;
+    }
+
+    .mtc {
+        font-size: 18px;
+        right:15px;
+        left: 17.5px;
+        top: 100px;
+    }
+
+    .profile {
+        height: 250px;
+    }
+}
